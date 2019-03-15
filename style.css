@@ -104,7 +104,9 @@ section {
 
 img {
 
-    height: 5vh;
+    height: 3.5vh;
+
+    padding: 4px;
 
 }
 
@@ -118,6 +120,24 @@ img:hover {
     display: inline-block;
 
 
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-right: 10px;
+
+
+
+}
+
+.right li:nth-child(3) {
+    position: relative;
+    right: 2px;
+    top: -9px;
 }
 
 .icons li:hover {
@@ -144,18 +164,37 @@ img:hover {
 .menu {
     left: 0;
     background-color: rgb(165, 152, 152, .9);
-    bottom: -300px;
-    width: 300px;
+    bottom: -320px;
+    padding: 20px;
+    border-top-right-radius: 10%;
     height: 300px;
     position: absolute;
     z-index: 5;
-    transition: 0.07s;
-    background-image: url("images/jakub-rozalski.jpg");
-    background-size: cover;
+    /* transition: 0.04s; */
+    /* background-image: url("images/jakub-rozalski.jpg");
+    background-size: cover; */
+    background-color: rgb(14, 14, 14);
+}
+
+.menu ul {
+    list-style-type: circle;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 220px;
+}
+
+.menu li {
+    padding: 4px;
+}
+
+.menu ul li:hover {
+    background-color: rgb(6, 50, 80);
+    cursor: pointer;
 }
 
 .menuActive {
     bottom: 0;
-    transition: 0.07s;
+    transition: 0.1s;
 
 }
