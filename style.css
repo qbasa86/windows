@@ -159,7 +159,7 @@ ul.icons.left li {
     left: 0;
     background-color: rgb(165, 152, 152, .9);
     bottom: -100vh;
-    padding: 20px;
+    padding: 0 20px;
     border-top-right-radius: 10%;
     height: 300px;
     position: absolute;
@@ -174,7 +174,7 @@ ul.icons.left li {
     list-style-type: circle;
     color: white;
     font-size: 15px;
-    padding: 10px;
+    padding: 0 10px;
     width: 220px;
 }
 
