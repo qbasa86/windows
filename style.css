@@ -100,30 +100,23 @@ body {
 section {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
-img {
 
-    height: 3.5vh;
-
-    padding: 4px;
-
-}
-
-img:hover {
-    opacity: .8;
-}
 
 
 .icons li {
 
     display: inline-block;
-
+    font-size: 4vh;
+    line-height: 5vh;
 
 }
 
 .left {
     float: left;
+    margin-left: 5px;
 }
 
 .right {
@@ -134,11 +127,7 @@ img:hover {
 
 }
 
-.right li:nth-child(3) {
-    position: relative;
-    right: 2px;
-    top: -9px;
-}
+
 
 .icons li:hover {
     background-color: rgba(1, 1, 2, 0.2);
@@ -159,6 +148,11 @@ img:hover {
     background-color: rgba(20, 20, 20, 1);
     position: relative;
     z-index: 100;
+    color: white;
+}
+
+ul.icons.left li {
+    padding: 0 10px;
 }
 
 .menu {
