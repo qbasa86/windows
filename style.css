@@ -180,7 +180,7 @@ ul.icons.left li {
 .menu ul {
     list-style-type: circle;
     color: white;
-    font-size: 15px;
+    font-size: 3vh;
     padding: 0 30px;
     margin-right: 40px;
 
@@ -188,7 +188,7 @@ ul.icons.left li {
 }
 
 .menu li {
-    padding: 11px;
+    padding: 3px;
 }
 
 .menu ul li:hover {
