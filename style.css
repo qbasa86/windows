@@ -109,6 +109,9 @@ section {
 
 
 
+.icons {
+    z-index: 100;
+}
 
 .icons li {
 
@@ -133,8 +136,10 @@ section {
 
 
 
-.icons li:hover {
-    background-color: rgba(1, 1, 2, 0.2);
+.icons.left li:hover {
+    /* background-color: rgba(1, 1, 2, 0.2); */
+    cursor: pointer;
+    color: lightblue;
 }
 
 
@@ -151,7 +156,7 @@ section {
     height: 5vh;
     background-color: rgba(20, 20, 20, 1);
     position: relative;
-    z-index: 100;
+
     color: white;
 }
 
@@ -163,11 +168,11 @@ ul.icons.left li {
     left: 0;
     background-color: rgb(165, 152, 152, .9);
     bottom: -100vh;
-
+    z-index: -1;
     border-top-right-radius: 10%;
 
     position: absolute;
-    z-index: 5;
+
     /* transition: 0.04s; */
     /* background-image: url("images/jakub-rozalski.jpg");
     background-size: cover; */
@@ -178,12 +183,14 @@ ul.icons.left li {
     list-style-type: circle;
     color: white;
     font-size: 15px;
-    padding: 0 10px;
-    width: 220px;
+    padding: 0 30px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
 }
 
 .menu li {
-    padding: 4px;
+    padding: 11px;
 }
 
 .menu ul li:hover {
