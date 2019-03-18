@@ -163,7 +163,7 @@ ul.icons.left li {
     left: 0;
     background-color: rgb(165, 152, 152, .9);
     bottom: -100vh;
-
+    height: 500px;
     /* border-top-right-radius: 10%; */
 
     position: absolute;
@@ -195,5 +195,5 @@ ul.icons.left li {
     bottom: 0;
     transition: 0.1s;
     bottom: 5vh;
-
+    height: 500px;
 }
