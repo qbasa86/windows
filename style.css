@@ -87,6 +87,10 @@ video {
     vertical-align: baseline;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -161,7 +165,7 @@ ul.icons.left li {
     bottom: -100vh;
     padding: 0 20px;
     border-top-right-radius: 10%;
-    height: 300px;
+
     position: absolute;
     z-index: 5;
     /* transition: 0.04s; */
@@ -190,5 +194,6 @@ ul.icons.left li {
 .menuActive {
     bottom: 0;
     transition: 0.1s;
+    bottom: 5vh;
 
 }
