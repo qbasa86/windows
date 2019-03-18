@@ -165,7 +165,7 @@ ul.icons.left li {
 .menu {
     left: 0;
     background-color: rgb(165, 152, 152, .9);
-    bottom: -100vh;
+    bottom: -150vh;
     z-index: -1;
     border-top-right-radius: 10%;
 
