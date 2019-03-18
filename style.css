@@ -163,8 +163,8 @@ ul.icons.left li {
     left: 0;
     background-color: rgb(165, 152, 152, .9);
     bottom: -100vh;
-    padding: 0 20px;
-    border-top-right-radius: 10%;
+
+    /* border-top-right-radius: 10%; */
 
     position: absolute;
     z-index: 5;
@@ -178,12 +178,12 @@ ul.icons.left li {
     list-style-type: circle;
     color: white;
     font-size: 15px;
-    padding: 0 10px;
+    /* padding: 0 10px; */
     width: 220px;
 }
 
 .menu li {
-    padding: 4px;
+    /* padding: 4px; */
 }
 
 .menu ul li:hover {
